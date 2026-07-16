@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 49, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/marce/Downloads/bookshelf-manager/bookshelf-manager/src/app/api/auth/logout/route.ts"],"sourcesContent":["import { cookies } from \"next/headers\";\r\n\r\n\r\nexport async function POST(){\r\n\r\nconst cookieStore =\r\nawait cookies();\r\n\r\n\r\ncookieStore.delete(\r\n\"token\"\r\n);\r\n\r\n\r\nreturn Response.json({\r\nsuccess:true\r\n});\r\n\r\n}"],"names":[],"mappings":";;;;AAAA;;AAGO,eAAe;IAEtB,MAAM,cACN,MAAM,IAAA,oKAAO;IAGb,YAAY,MAAM,CAClB;IAIA,OAAO,SAAS,IAAI,CAAC;QACrB,SAAQ;IACR;AAEA","debugId":null}}]
+}
